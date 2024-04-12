@@ -19,7 +19,9 @@ app.use(
 //router
 
 import UserRoueter from "./routers/user.router.js";
+import MessageRouter from "./routers/message.routers.js";
 
 app.use("/api/v1/user", UserRoueter);
+app.use("/api/v1/message", MessageRouter);
 
 export default app;
