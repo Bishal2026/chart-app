@@ -114,8 +114,6 @@ export const getOtheruser = async (req, res, next) => {
       "-password"
     );
     return res.status(200).json({
-      success: true,
-
       otherUsers,
     });
   } catch (error) {
