@@ -29,7 +29,7 @@ export const sendMessage = async (req, res, next) => {
     await gotCoverstion.save();
 
     return res.status(200).json({
-      message: "message send scuessfully",
+      newMeassge,
     });
   } catch (error) {
     console.log(error);
