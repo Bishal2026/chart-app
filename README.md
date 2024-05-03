@@ -9,7 +9,9 @@
      3. - npm i
      4. add a .env file in  src folder  and see .env.simple  file
 
-     ![Screenshot 2024-05-03 173050](https://github.com/Bishal2026/chart-app/assets/125622171/85d17f8a-aa7a-4385-b7c4-3a5d42aea8fc)
+#### like this
+
+![Screenshot 2024-05-03 173050](https://github.com/Bishal2026/chart-app/assets/125622171/85d17f8a-aa7a-4385-b7c4-3a5d42aea8fc)
 
 
 
