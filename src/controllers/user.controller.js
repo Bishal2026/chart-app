@@ -109,7 +109,7 @@ export const Logout = async (req, res) => {
 export const getOtheruser = async (req, res, next) => {
   try {
     const loggedInuserId = req.id;
-    // console.log(loggedInuserId._id);
+    // console.log(loggedInuserId);
     const otherUsers = await User.find({ _id: { $ne: loggedInuserId } }).select(
       "-password"
     );
