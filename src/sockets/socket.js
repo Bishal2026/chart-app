@@ -1,10 +1,10 @@
 import { Server } from "socket.io";
 import { createServer } from "http";
 
-// import app from "../app.js";
-import express from "express";
+import app from "../app.js";
+// import express from "express";
 
-const app = express();
+// const app = express();
 const server = createServer(app);
 
 const io = new Server(server, {
