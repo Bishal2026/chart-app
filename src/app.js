@@ -2,8 +2,7 @@ import express from "express";
 import cookieparser from "cookie-parser";
 import cors from "cors";
 import morgan from "morgan";
-// import { app } from "./sockets/socket.js";
-const app = express();
+import { app } from "./sockets/socket.js";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
