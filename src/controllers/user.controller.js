@@ -113,9 +113,7 @@ export const getOtheruser = async (req, res, next) => {
     const otherUsers = await User.find({ _id: { $ne: loggedInuserId } }).select(
       "-password"
     );
-    return res.status(200).json({
-      otherUsers,
-    });
+    return res.status(200).json(otherUsers);
   } catch (error) {
     console.log(error);
   }
